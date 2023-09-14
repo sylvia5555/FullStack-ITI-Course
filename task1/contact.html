@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+
+<body>
+    <form method="get">
+        <table border="2px" cellspacing="0px" cellpadding="10px" width="50%">
+            <caption>Contact me Form</caption>
+            <thead>
+                <tr>
+                    <th colspan="2">Contact me</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Your Name:</td>
+                    <td><input type="text" name="name"></td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Your opinion on the website:</td>
+                    <td> <input type="radio" id="r1" name="opinion" value="Very good">
+                        <label for="r1">Very good</label><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td> <input type="radio" id="r2" name="opinion" value="Good">
+                        <label for="r2">Good</label><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td> <input type="radio" id="r3" name="opinion" value="Fair">
+                        <label for="r3">Fair</label><br>
+                </tr>
+                <tr>
+                    <td rowspan="2">Gender:</td>
+                    <td> <input type="radio" id="g1" name="gender" value="Male">
+                        <label for="g1">Male</label><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td> <input type="radio" id="g2" name="gender" value="Female">
+                        <label for="g2">Female</label><br>
+                </tr>
+                <tr>
+                    <td>Marital status:</td>
+                    <td><select name="marital status" id="marital status" value="marital status">
+                            <option value="single">single</option>
+                            <option value="married">married</option>
+                            <option value="other" selected>other</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>You know about my website</td>
+                    <td><select name="marital status" value="know from" multiple>
+                            <option value="internet">internet</option>
+                            <option value="friend">friend</option>
+                            <option value="search engine">search engine</option>
+                            <option value="other">other</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>from:</td>
+                    <td><input type="text" value="option.."></td>
+                </tr>
+                <tr>
+                    <td>mail:</td>
+                    <td><input type="email" value="email"></td>
+                </tr>
+                <tr>
+                    <td>Subject:</td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Message:</td>
+                    <td>
+                        <textarea name="message" cols="30" rows="10"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <center><input type="submit" src="thank-you.html"></center>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+
+</html>
